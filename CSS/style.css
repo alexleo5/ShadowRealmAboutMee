@@ -1,0 +1,113 @@
+/* Reset and Base Styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1a1a1a; /* Dark background to match YouTube's theme */
+    color: #ffffff; /* White text for contrast */
+    font-size: 16px;
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif; /* YouTube's font */
+    line-height: 1.6;
+}
+
+/* Typography */
+h1 {
+    font-weight: 500;
+    color: #ff0000; /* Red to match YouTube's branding */
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    color: #cccccc; /* Light gray for body text */
+}
+
+/* Layout */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.masthead {
+    padding: 4em 0;
+    background: url('../img/code.jpg') no-repeat center center / cover; /* Adjust image path */
+    text-align: center;
+}
+
+.masthead-intro {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.masthead-heading {
+    font-size: 3em;
+    color: #ff0000;
+}
+
+.details {
+    margin-top: 4em;
+    padding-bottom: 4em;
+    border-bottom: 1px solid #444;
+}
+
+/* Videos Button */
+.button-container {
+    text-align: right; /* Align the button to the right */
+    margin-top: 2em; /* Space above the button */
+}
+
+.videos-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ff0000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff; /* White color on hover */
+}
+
+/* Social Links */
+.social-links {
+    list-style: none;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #ff0000;
+    font-size: 1.5em;
+}
+
+.social-links a:hover {
+    color: #ffffff; /* White color on hover */
+}
+
+/* Copyright */
+h5 {
+    color: #cccccc;
+    text-align: center;
+    padding: 10px 0;
+}

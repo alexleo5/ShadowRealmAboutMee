@@ -1,0 +1,93 @@
+/* Updated CSS (styles.css) */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+section {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #282c34;
+}
+
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.video-embed {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #282c34;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        margin: 20px 0;
+    }
+}
