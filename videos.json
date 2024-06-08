@@ -1,0 +1,5 @@
+[
+    { "title": "Live Stream 1", "url": "https://www.youtube.com/watch?v=00GJcug-hYw", "embedUrl": "https://www.youtube.com/embed/00GJcug-hYw", "type": "live" },
+    { "title": "Short Video 1", "url": "https://www.youtube.com/shorts/8fsA5eQHzKg", "embedUrl": "https://www.youtube.com/embed/8fsA5eQHzKg", "type": "short" },
+    { "title": "Regular Video 1", "url": "https://www.youtube.com/watch?v=oYf_oLxu07c", "embedUrl": "https://www.youtube.com/embed/oYf_oLxu07c", "type": "regular" }
+]
